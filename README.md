@@ -13,16 +13,9 @@ Install via npm
 npm install -g cloudflare-cli
 ```
 
-Install from Dockerhub
-```bash
-docker pull dpig/cloudflare-cli:latest
-# Running a command
-docker run --rm -it dpig/cloudflare-cli -h
-```
-
 Build Dockerfile locally
 ```bash
-git clone https://github.com/danielpigott/cloudflare-cli.git\
+git clone https://github.com/Terrell707/cloudflare-cli.git\
 docker build -t cloudflare-cli .
 # Running a command
 docker run --rm -it cloudflare-cli -h
